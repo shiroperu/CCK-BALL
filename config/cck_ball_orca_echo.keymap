@@ -65,9 +65,9 @@
             bindings = <
             &none            &none            &none            &none            &none            &mo 2            &none            &none            &none            &none            &none            &none
             &kp ESC          &kp Q            &kp W            &kp E            &kp R            &kp T            &kp Y            &kp U            &kp I            &kp O            &kp P            &kp MINUS
-            &kp TAB          &kp A            &kp S            &kp D            &kp F            &kp G            &kp H            &kp J            &kp K            &kp L            &kp SEMI         &kp ENTER
+            &kp TAB          &kp A            &kp S            &kp D            &lt 3 F            &kp G            &kp H            &kp J            &kp K            &kp L            &kp SEMI         &kp ENTER
             &kp LSHFT        &kp Z            &kp X            &kp C            &kp V            &kp B            &kp N            &kp M            &kp COMMA        &kp DOT          &kp LPAR         &kp RPAR
-            &kp LCTRL        &kp LALT         &kp LGUI         &kp LANG2        &mo 1            &kp SPACE        &kp B            &kp BSPC         &kp LANG1        &mkp LCLK        &mkp RCLK        &mkp MCLK
+            &kp LCTRL        &kp LALT         &kp LGUI         &mo 1        &kp SPACE            &kp SPACE        &kp DELETE            &mo 2         &kp SPACE        &mkp LCLK        &mkp RCLK        &mkp MCLK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -76,10 +76,10 @@
         orca_fn1 {
             display-name = "Orca fn1 (red)";
             bindings = <
-            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans
+            &kp F12           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &kp F6           &kp F7           &kp F8           &kp F9           &kp F10           &kp F11
             &trans           &trans           &trans           &kp UP           &trans           &trans           &trans           &kp C_PP         &trans           &kp N7           &kp N8           &kp N9
             &trans           &trans           &kp LEFT         &kp DOWN         &kp RIGHT        &trans           &trans           &kp C_PREV       &kp C_NEXT       &kp N4           &kp N5           &kp N6
-            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp N1           &kp N2           &kp N3
+            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp LANG2        &kp LANG1        &kp N1           &kp N2           &kp N3
             &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp N0           &trans           &trans
             >;
 
@@ -89,10 +89,10 @@
         orca_fn2 {
             display-name = "Orca fn2 (green)";
             bindings = <
-            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans
+            &trans           &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4  &trans      &trans  &trans  &trans  &trans  &kp W
             &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp AMPS         &kp STAR         &kp QMARK
-            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp DLLR         &kp PRCNT        &kp CARET
-            &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp EXCL         &kp AT           &kp HASH
+            &trans           &bt BT_CLR_ALL   &trans           &trans           &trans           &trans           &trans           &trans           &trans           &kp DLLR         &kp PRCNT        &kp CARET
+            &trans           &trans           &trans           &bt BT_CLR           &trans           &trans           &trans           &trans           &trans           &kp EXCL         &kp AT           &kp HASH
             &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans           &trans
             >;
 
