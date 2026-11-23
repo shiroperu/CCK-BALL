@@ -64,8 +64,8 @@
         F_layers {
             bindings = <
 &kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7     &kp F8     &kp F9     &kp F10   &kp F11
-&kp A    &none   &none   &none   &none   &trans  &none      &none      &kp MINUS  &kp EQUAL  &kp BSLH  &kp LBKT
-&trans   &none   &none   &none   &none   &trans  &mkp LCLK  &mkp RCLK  &trans     &trans     &trans    &kp RBKT
+&kp A    &none   &none   &none   &none   &trans  &none      &none      &kp MINUS  &kp EQUAL  &kp BSLH  &kp SQT
+&trans   &none   &none   &none   &none   &trans  &mkp LCLK  &mkp RCLK  &trans     &kp SEMI   &kp NON_US_HASH &kp RBKT
 &trans   &trans  &trans  &trans  &trans  &kp LANG2   &kp LANG1      &none      &trans     &trans     &none     &kp LS(INT1)
 &trans   &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans     &trans     &trans    &trans
             >;
