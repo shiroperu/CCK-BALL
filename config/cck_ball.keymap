@@ -77,7 +77,7 @@
             display-name = "Orca fn1 (red)";
             bindings = <
             &kp F12           &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &kp F6           &kp F7           &kp F8           &kp F9           &kp F10           &kp F11
-            &trans           &trans           &trans           &kp UP           &trans           &trans           &kp N7           &kp N8           &kp N9           &trans           &kp INT3         &kp MINUS  // JIS: 7 8 9 (空き) ¥ -
+            &trans           &trans           &trans           &kp UP           &trans           &trans           &kp N7           &kp N8           &kp N9           &trans           &kp LBKT         &kp MINUS  // JIS: 7 8 9 (空き) @ -
             &trans           &trans           &kp LEFT         &kp DOWN         &kp RIGHT        &trans           &kp N4           &kp N5           &kp N6           &trans           &trans           &trans
             &trans           &trans           &trans           &trans           &kp LANG2        &kp LANG1        &kp N1           &kp N2           &kp N3           &trans           &kp UP           &trans
             &trans           &trans           &trans           &trans           &trans           &trans           &mkp LCLK        &mkp RCLK        &kp N0           &kp LEFT         &kp DOWN         &kp RIGHT
